@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+  <!-- 화면이 그려지기 전에 붙여야 .reveal 요소가 깜빡이지 않음 -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- ===== 1. Hero ===== -->
+  <header class="hero">
+    <div class="inner">
+      <nav class="gnb">
+        <a href="#" class="logo">General<span>Project</span></a>
+        <ul class="menu">
+          <li><a href="#" class="on">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Find a Team</a></li>
+          <li><a href="#">About Us</a></li>
+          <li class="gap"><a href="#">Articles</a></li>
+          <li><a href="#">Portofolio</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-text">
+        <div class="main-tit">We Provide<br>Architectural design<br>and Construction</div>
+        <p>More than 100 building and housing projects that we have built.<br>
+          The building owner chose us over other contractors in Jakarta,<br>
+          because our work is different</p>
+        <a href="#" class="btn">Discover More</a>
+
+        <ul class="stats">
+          <li><strong>300<em>+</em></strong><span>Happy<br>Client</span></li>
+          <li><strong>900<em>+</em></strong><span>Amazing<br>Projects</span></li>
+          <li><strong>20<em>+</em></strong><span>Awards<br>Winning</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <img class="hero-img" src="images/joel-filipe-RFDP7_80v5A-unsplash (1) 1.png" alt="건물 외관">
+
+    <div class="hero-box">
+      <p class="box-logo">General<br><b>Project</b></p>
+      <p class="box-years"><b>25</b> Years<br><b>Operated</b></p>
+      <p class="box-desc">As a trusted general project that has been operating for 25 years, our commitment is always to prioritize our client satisfaction</p>
+    </div>
+  </header>
+
+  <!-- ===== 2. Partners (logos) ===== -->
+  <section class="partners">
+    <!-- 무빙워크: 같은 목록을 두 번 넣어서 끊김 없이 이어지게 함 (두 번째 목록은 스크린리더에서 숨김) -->
+    <div class="marquee">
+      <ul class="marquee-track">
+        <li><img src="images/logo-admf.png" width="163" height="45" alt="Adira Finance"></li>
+        <li><img src="images/logo-adhimix.png" width="143" height="79" alt="Adhimix RMC Indonesia"></li>
+        <li><img src="images/logo-holcim.png" width="126" height="54" alt="Holcim"></li>
+        <li><img src="images/logo-mnc.png" width="146" height="67" alt="MNC"></li>
+        <li><img src="images/logo-telkomsel.png" width="219" height="120" alt="Telkomsel"></li>
+      </ul>
+      <ul class="marquee-track" aria-hidden="true">
+        <li><img src="images/logo-admf.png" width="163" height="45" alt=""></li>
+        <li><img src="images/logo-adhimix.png" width="143" height="79" alt=""></li>
+        <li><img src="images/logo-holcim.png" width="126" height="54" alt=""></li>
+        <li><img src="images/logo-mnc.png" width="146" height="67" alt=""></li>
+        <li><img src="images/logo-telkomsel.png" width="219" height="120" alt=""></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 3. Our Excellent Services ===== -->
+  <section class="services">
+    <div class="inner">
+      <div class="sec-head">
+        <div class="sec-tit">Our Excellent<br>Services</div>
+        <p>Check out our best service you can possibly orders in building your company and don't forget to ask via our email or our customer service if you are interested in using our services</p>
+      </div>
+
+      <ul class="service-list">
+        <li class="reveal" style="--delay: 0s">
+          <img src="images/pexels-pixabay-209251.png" width="368" height="287" alt="Industrial">
+          <div class="item-tit">Industrial</div>
+          <p>Industrial development is our main line of business. We do Factory Construction, Warehouse and others</p>
+        </li>
+        <li class="reveal" style="--delay: .2s">
+          <img src="images/Mask Group.png" width="368" height="287" alt="Commercial">
+          <div class="item-tit">Commercial</div>
+          <p>Our experience building in the Commercial field includes Showrooms, Supermalls and Office Buildings</p>
+        </li>
+        <li class="reveal" style="--delay: .4s">
+          <img src="images/Mask Group2.png" width="368" height="287" alt="Resedential">
+          <div class="item-tit">Resedential</div>
+          <p>Residential development is the beginning that has shaped us to this day. Our development includes Houses &amp; Apartments</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 4. What Make Us Different? ===== -->
+  <section class="different">
+    <div class="inner">
+      <span class="sec-bar"></span>
+      <div class="sec-head">
+        <div class="sec-tit">What Make Us<br>Different?</div>
+        <p>Check out our best service you can possibly orders in building your company and don't forget to ask via our email or our customer service if you are interested in using our services</p>
+      </div>
+
+      <ul class="feature-list">
+        <li class="reveal" style="--delay: 0s">
+          <span class="icon"><img src="images/icon01.png" width="32" height="29" alt=""></span>
+          <div class="item-tit">Experienced</div>
+          <p>Our experience of 25 years of building and making achievements in the world of development</p>
+        </li>
+        <li class="reveal" style="--delay: .15s">
+          <span class="icon"><img src="images/icon02.png" width="35" height="35" alt=""></span>
+          <div class="item-tit">competitive price</div>
+          <p>The prices we offer you are very competitive without reducing the quality of the company's work in the slightest</p>
+        </li>
+        <li class="reveal" style="--delay: .3s">
+          <span class="icon"><img src="images/icon03.png" width="44" height="44" alt=""></span>
+          <div class="item-tit">On Time</div>
+          <p>We prioritize the quality of our work and finish it on time</p>
+        </li>
+        <li class="reveal" style="--delay: .45s">
+          <span class="icon"><img src="images/icon04.png" width="38" height="38" alt=""></span>
+          <div class="item-tit">Best Materials</div>
+          <p>The material determines the building itself so we recommend that you use the best &amp; quality materials in its class.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 5. Meet and talk with our best architecture ===== -->
+  <section class="team">
+    <div class="inner">
+      <div class="team-visual">
+        <!-- 1) 왼쪽에서 먼저 날아옴 -->
+        <img class="team-photo reveal reveal-left" src="images/Mask Group3.png" width="535" height="570" alt="건물 사진">
+        <!-- 2) 사진 다음에 오른쪽에서 날아옴 -->
+        <div class="profile-card reveal reveal-right" style="--delay: .5s">
+          <img src="images/unsplash_IF9TK5Uy-KI.png" width="100" height="100" alt="Dianne Russell">
+          <div class="item-tit">Dianne Russell</div>
+          <p>More than 20 years of experience in the field architecture and has worked on project up to 100+</p>
+        </div>
+      </div>
+
+      <div class="team-text reveal reveal-right" style="--delay: .65s">
+        <div class="sec-tit">Meet and talk with<br>our best architecture</div>
+        <p>All our teams are professional and competent in their fields and will help you realize your dream building with the excellent result.</p>
+        <div class="team-btns">
+          <a href="#" class="btn-primary">See all team</a>
+          <a href="#" class="btn-link">How it works
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true"><path d="M0 6h14M9 1l5 5-5 5" stroke="currentColor" stroke-width="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 6. Our Story ===== -->
+  <section class="story">
+    <div class="inner">
+      <div class="story-text">
+        <div class="sec-tit">Our Story<br>Who we are</div>
+        <p>Established in 1992, PT. Wahana Cipta operates as a General Contracting company with a footprint that we have planted throughout Indonesia. Initially, we focused on construction in the field of residential housing development in Jakarta.<br>
+          As the company grows, now we are present as a reliable...</p>
+        <a href="#" class="btn-primary">See More</a>
+      </div>
+      <img class="story-img" src="images/Mask Group4.png" width="605" height="501" alt="건물 외벽과 비상계단">
+    </div>
+  </section>
+
+  <!-- ===== 7. News & Update ===== -->
+  <section class="news">
+    <div class="inner">
+      <div class="news-title">News &amp; Update</div>
+
+      <ul class="news-list">
+        <li class="reveal" style="--delay: 0s">
+          <a href="#" class="news-thumb"><img src="images/Mask Group5.png" width="398" height="317" alt="페인트 롤러와 페인트 통"></a>
+          <div class="news-meta">
+            <p class="news-date"><b>12</b>Jan</p>
+            <div class="item-tit"><a href="#">Elements of Content in Epoxy Paint</a></div>
+          </div>
+          <p class="news-desc">Epoxy paint and epoxy floor contractor. Have you heard the two terms? And what does that have to do with the construction of existing buildings? Epoxy itself is included in the type of resin... <a href="#" class="more">Read more</a></p>
+        </li>
+        <li class="reveal" style="--delay: .2s">
+          <a href="#" class="news-thumb"><img src="images/Mask Group6.png" width="398" height="317" alt="창고 선반 내부"></a>
+          <div class="news-meta">
+            <p class="news-date"><b>12</b>Jan</p>
+            <div class="item-tit"><a href="#">5 Right Steps in Warehouse Planning and Construction</a></div>
+          </div>
+          <p class="news-desc">Planning the construction of a warehouse for both industrial, personal and other goods storage must be done carefully.<br>
+            When the planning is done properly, the construction is... <a href="#" class="more">Read more</a></p>
+        </li>
+        <li class="reveal" style="--delay: .4s">
+          <a href="#" class="news-thumb"><img src="images/Mask Group7.png" width="398" height="317" alt="흰색 주택 외관"></a>
+          <div class="news-meta">
+            <p class="news-date"><b>12</b>Jan</p>
+            <div class="item-tit"><a href="#">The Right Solution to Build a Sturdy Type 45 House</a></div>
+          </div>
+          <p class="news-desc">Having a solid home is certainly everyone's dream. How not, the house is a place where the residents can rest and take shelter from the bad weather... <a href="#" class="more">Read more</a></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 8. Our collection best project ===== -->
+  <section class="collection">
+    <div class="inner">
+      <div class="collection-title">Our collection<br>best project</div>
+
+      <!-- 마우스를 올린 카드에 정보 박스가 나타남. .on = 처음부터 보이는 카드 -->
+      <!-- TODO: 1·3·4번 프로젝트 이름은 임시. Figma 기준으로 바꿔주세요 -->
+      <ul class="project-list">
+        <li class="reveal" style="--delay: 0s">
+          <img src="images/unsplash_jTCLppdwSEc.png" width="278" height="478" alt="흰색 발코니가 겹겹이 있는 건물">
+          <div class="project-info">
+            <div><div class="item-tit">White Residence</div><p>Project Completed</p></div>
+            <a href="#" class="project-more" aria-label="White Residence 자세히 보기"><svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true"><path d="M0 7h16M10 1l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+          </div>
+        </li>
+        <li class="reveal" style="--delay: .15s">
+          <img src="images/unsplash-l8fyK9RS-OU.png" width="278" height="478" alt="빨간색 고층 타워">
+          <div class="project-info">
+            <div><div class="item-tit">Treasury Tower</div><p>Project Completed</p></div>
+            <a href="#" class="project-more" aria-label="Treasury Tower 자세히 보기"><svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true"><path d="M0 7h16M10 1l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+          </div>
+        </li>
+        <li class="reveal" style="--delay: .3s">
+          <img src="images/unsplash_4CQEOLagfEE.png" width="278" height="478" alt="유리 발코니가 있는 아파트">
+          <div class="project-info">
+            <div><div class="item-tit">Glass Apartment</div><p>Project Completed</p></div>
+            <a href="#" class="project-more" aria-label="Glass Apartment 자세히 보기"><svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true"><path d="M0 7h16M10 1l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+          </div>
+        </li>
+        <li class="reveal" style="--delay: .45s">
+          <img src="images/unsplash_gJFvHkUHdSI.png" width="278" height="478" alt="주황색 외벽의 유럽풍 건물">
+          <div class="project-info">
+            <div><div class="item-tit">Classic Building</div><p>Project Completed</p></div>
+            <a href="#" class="project-more" aria-label="Classic Building 자세히 보기"><svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true"><path d="M0 7h16M10 1l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 9. Testimonial ===== -->
+  <!-- 배경 위쪽은 흰색, 아래쪽은 footer와 같은 어두운색 → 박스가 경계에 걸쳐 보임 -->
+  <section class="testimonial">
+    <div class="inner">
+      <div class="testi-box">
+        <!-- 슬라이드: li를 더 추가하면 화살표로 넘어감 (main.js) -->
+        <ul class="testi-slides">
+          <li class="testi-slide is-active">
+            <img class="testi-photo" src="images/unsplash_6anudmpILw4.png" width="271" height="346" alt="Jacob Molen">
+            <div class="testi-card">
+              <span class="testi-quote" aria-hidden="true">
+                <svg width="14" height="11" viewBox="0 0 14 11" fill="currentColor"><path d="M0 11V6.4C0 2.9 1.8.7 5.3 0l.6 1.3C4 1.9 3.1 3 3 4.6h2.6V11H0zm8 0V6.4C8 2.9 9.8.7 13.3 0l.6 1.3C12 1.9 11.1 3 11 4.6h2.6V11H8z"/></svg>
+              </span>
+              <div class="item-tit">Jacob Molen</div>
+              <p>We like the final result this project, in extraordinary and also provides the best service to the client</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="testi-text">
+          <div class="sec-tit">What we have done &amp;<br>what our Customers say</div>
+          <p>We are to help you build a excellent build, with us nothing is impossible. See what we have done and what they have to say about our work perform.</p>
+          <div class="testi-nav">
+            <button type="button" class="testi-prev" aria-label="이전 후기">
+              <svg width="20" height="16" viewBox="0 0 20 16" fill="none" aria-hidden="true"><path d="M20 8H2M8 1L1 8l7 7" stroke="currentColor" stroke-width="2.4"/></svg>
+            </button>
+            <button type="button" class="testi-next" aria-label="다음 후기">
+              <svg width="20" height="16" viewBox="0 0 20 16" fill="none" aria-hidden="true"><path d="M0 8h18M12 1l7 7-7 7" stroke="currentColor" stroke-width="2.4"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 10. Footer ===== -->
+  <footer class="footer">
+    <div class="inner">
+      <div class="footer-about">
+        <div class="footer-tit">General Project</div>
+        <p>is a general contractor company based in Jakarta. More than 25 years of experience in building and carving out Indonesia's development.</p>
+        <ul class="sns">
+          <li><a href="#" aria-label="Google"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20.5 12.2H12v3.3h4.9A5.4 5.4 0 1 1 15.6 8"/></svg></a></li>
+          <li><a href="#" aria-label="Twitter"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 4.6a9 9 0 0 1-2.6.7 4.5 4.5 0 0 0 2-2.5 9 9 0 0 1-2.9 1.1 4.5 4.5 0 0 0-7.7 4.1A12.8 12.8 0 0 1 2.5 3.3a4.5 4.5 0 0 0 1.4 6 4.5 4.5 0 0 1-2-.6v.1a4.5 4.5 0 0 0 3.6 4.4 4.5 4.5 0 0 1-2 .1 4.5 4.5 0 0 0 4.2 3.1A9 9 0 0 1 1 18.3a12.8 12.8 0 0 0 6.9 2c8.3 0 12.8-6.9 12.8-12.8v-.6A9 9 0 0 0 23 4.6z"/></svg></a></li>
+          <li><a href="#" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a></li>
+          <li><a href="#" aria-label="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 3h18v18H3zm3.5 7.5V18h2.6v-7.5zm1.3-4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm3.7 4V18h2.6v-4c0-1.1.4-1.8 1.4-1.8s1.3.8 1.3 1.8v4h2.6v-4.6c0-2.3-1.2-3.1-2.8-3.1a2.7 2.7 0 0 0-2.5 1.3v-1.1z"/></svg></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu">
+        <div class="footer-tit">Company</div>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Term</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu">
+        <div class="footer-tit">More</div>
+        <ul>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">License</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
